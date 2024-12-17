@@ -4,10 +4,10 @@ import numpy as np
 import sklearn
 
 # Load the Naive Bayes model, vectorizer, and feature names
-with open('spam_email_detection/naive_bayes_model.pkl', 'rb') as model_file:
+with open('naive_bayes_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open('spam_email_detection/vectorizer.pkl', 'rb') as vectorizer_file:
+with open('vectorizer.pkl', 'rb') as vectorizer_file:
     vectorizer = pickle.load(vectorizer_file)
 
 # Streamlit app
